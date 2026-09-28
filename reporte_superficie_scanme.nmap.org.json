@@ -1,0 +1,35 @@
+{
+    "objetivo": "scanme.nmap.org",
+    "resultados": [
+        {
+            "puerto": 21,
+            "estado": "closed",
+            "servicio": "ftp",
+            "producto_version": ""
+        },
+        {
+            "puerto": 22,
+            "estado": "open",
+            "servicio": "ssh",
+            "producto_version": "OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13"
+        },
+        {
+            "puerto": 80,
+            "estado": "open",
+            "servicio": "http",
+            "producto_version": "Apache httpd 2.4.7"
+        },
+        {
+            "puerto": 443,
+            "estado": "closed",
+            "servicio": "https",
+            "producto_version": ""
+        },
+        {
+            "puerto": 3306,
+            "estado": "closed",
+            "servicio": "mysql",
+            "producto_version": ""
+        }
+    ]
+}
